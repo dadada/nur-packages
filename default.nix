@@ -18,6 +18,7 @@ with pkgs;
   tubslatex = callPackage ./pkgs/tubslatex.nix {};
   dokuwiki = callPackage ./pkgs/dokuwiki {};
   dokuwikiTemplates = recurseIntoAttrs (callPackage ./pkgs/dokuwiki/templates.nix {});
+  dokuwikiPlugins = recurseIntoAttrs (callPackage ./pkgs/dokuwiki/plugins.nix {});
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
