@@ -1,3 +1,4 @@
+# see https://github.com/NixOS/nixpkgs/pull/83769
 { config, lib, pkgs, ... }:
 
 let
