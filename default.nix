@@ -16,6 +16,7 @@ with pkgs;
   overlays = import ./overlays; # nixpkgs overlays
 
   tubslatex = callPackage ./pkgs/tubslatex.nix {};
+  dokuwiki = callPackage ./pkgs/dokuwiki {};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
